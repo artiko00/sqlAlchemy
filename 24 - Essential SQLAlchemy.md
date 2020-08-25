@@ -1,0 +1,3 @@
+# Part II. SQLAlchemy ORM
+
+The SQLAlchemy ORM is what most people think of when you mention SQLAlchemy. It provides a very effective way to bind database schema and operations to the same data objects used in your application. It offers a way to rapidly build applications and get them into customers’ hands. Using the ORM is so simple that most people don’t consider the possible side effects of their code. It is still important to think about how the database will be used by your code. However, the wonderful thing about the ORM is that you can think about that when the need arises and not for every query. Let’s get started using the ORM.
