@@ -1,0 +1,3 @@
+# Part III. Alembic
+
+Alembic is a tool for handling database changes that leverages SQLAlchemy to perform the migrations. Since SQLAlchemy will only create missing tables when we use the metadata’s create_all method, it doesn’t update the database tables to match any changes we might make to the columns. Nor would it delete tables that we removed from the code. Alembic provides a way to do things like adding/deleting tables, changing column names, and adding new constraints. Because Alembic uses SQLAlchemy to perform the migrations, they can be used on a wide array of backend databases.
